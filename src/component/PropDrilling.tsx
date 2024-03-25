@@ -1,22 +1,10 @@
-import React from "react";
 import { useState } from "react";
+import Continent from "./Continent";
 
 const PropDrilling = () => {
-  const [weather, setWeather] = useState("🌞");
+  const[contitent, setContinent] = useState("Africa");
 
-  return <Europe weather={weather} />;
-};
-
-const Europe = ({ weather }: WeatherProps) => {
-  return <Estonia weather={weather} />;
-};
-
-const Estonia = ({ weather }: WeatherProps) => {
-  return <Tallinn weather={weather} />;
-};
-
-const Tallinn = ({ weather }: WeatherProps) => {
-  return <div>{weather}</div>;
+  return <Continent continent={contitent} />
 };
 
 export default PropDrilling;
