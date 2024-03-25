@@ -10,3 +10,7 @@ type WeatherContextType = {
     weather: string;
     changeWeather: () => void;
 }
+
+type CityProps = {
+    cityName: string;
+};
