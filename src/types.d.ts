@@ -9,7 +9,7 @@ type WeatherProps = {
 type WeatherContextType = {
     weather: string;
     changeWeather: () => void;
-}
+};
 
 type ContinentProps = {
     continent: string;
