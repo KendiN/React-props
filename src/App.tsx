@@ -2,7 +2,10 @@ import React from "react";
 import './App.css';
 import PropDrilling from "./component/PropDrilling";
 import List from "./component/List";
-import Counter from "./component/Counter";
+import Login from "./forms/Login";
+import SignUp from "./forms/Signup";
+
+
 
 
 function App() {
@@ -10,6 +13,10 @@ function App() {
     <div className="center">
     <PropDrilling />
     <List />
+    <Login />
+    <SignUp />
+    
+   
     </div>
   );
   
